@@ -1,0 +1,185 @@
+@media screen and (max-width: 576px){
+    
+    .first{
+        width: 100%;
+        background-color: yellow;
+         margin: 0 auto;
+   
+      }
+   
+   
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: rebeccapurple;
+    }
+
+    .container .text{
+       
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .container .text h1{
+        font-size: 50px;
+    }
+
+    .container .text p{
+        font-size: 25px;
+    }
+
+    .container .image {
+       
+        width: 100%;
+       
+    }
+
+    .container .image img{
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .second{
+        width: 100%;
+        margin-top: 50px;
+        align-items: center;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .second .all{
+        width: 70%;
+        align-items: center;
+        text-align: center;
+        margin: 0 70px;
+        
+    }
+    .o{
+        
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+       
+       margin-top: 0px;
+        
+       
+        align-items: center;
+        text-align: center;
+    }
+    .all .o{
+        width: 100%;
+        margin-bottom: 50px;
+        background-color: lightblue;
+        padding: 60px;
+        align-items: center;
+        text-align: center;
+        border-radius: 30px;
+    }
+
+    .o img{
+        width: 100%;
+    }
+
+    .oo{
+        width: 100px;
+        height: 70px;
+    }
+    
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 900px){
+    
+    
+    .first{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container{
+        background-color: lightblue;
+        padding: 20px;
+    }
+    .container .text{
+        
+        margin-top: 0;
+    }
+
+    .text h1{
+        font-size: 35px;
+    }
+
+
+
+
+    .second{
+        display: flex;
+       
+        margin-top: 50px;
+        align-items: center;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .second .all{
+        width: 70%;
+        align-items: center;
+        text-align: center;
+        margin: 0 95px;
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+       
+       margin-top: 0px;
+        
+       
+        align-items: center;
+        text-align: center;
+    }
+    .all .o{
+        width: 100%;
+        margin-bottom: 50px;
+        background-color: lightblue;
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+        border-radius: 30px;
+    }
+    .o img{
+        width: 100%;
+    }
+    .oo{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+
+@media screen and (min-width: 901) and (max-width: 1500px) {
+    
+    .first
+{
+    width: 85%;
+    border: 1px solid yellow;
+    margin: 0 auto;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 30px
+
+}
+
+.second{
+    background-color: red;
+}
+
+.all{
+    display: flex;
+    justify-content: space-around;
+     
+}
+
+
+
+
+}
+
